@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-columns: (12,50px);
+    grid-template-rows: 100px 600px 180px;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    background-color: rgb(197, 202, 224);
+}
+.content{
+    grid-column-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    background-image: url("paysage.jpg");
+    background-size: contain ;
+    background-repeat: no-repeat;
+}
+.aside{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    background-color: rgb(90, 119, 97);
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    background-color: crimson;
+    font-size: 100%;
+}
+.container-footer{
+    display: grid;
+    grid-template-columns:(12,50px) ;
+    grid-template-rows:10px 180px ;
+}
+.nous-contacter{
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+.qui-sommes-nous{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    text-align: center;
+}
+.reseau-sociaux{
+    grid-column-start: 8;
+    grid-row-start: 2;
+}    
